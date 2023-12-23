@@ -4,7 +4,8 @@
 		"context": "..",
 		"dockerfile": "Dockerfile",
 		"args": {
-			"NODE_VERSION": "lts/*"
+			"NODE_VERSION": "lts/*",
+			"SKIP_DEPLOY_ON_MISSING_SECRETS": true
 		}
 	},
 
